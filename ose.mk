@@ -4,7 +4,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common OSE stuff.
-$(call inherit-product, vendor/ose/config/common_tablet.mk)
+$(call inherit-product, vendor/ose/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/ose/config/nfc_enhanced.mk)
